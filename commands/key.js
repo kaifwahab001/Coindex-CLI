@@ -9,7 +9,7 @@ const key = {
             {
                 type : 'input',
                 name : 'key',
-                message : 'Enter Api Key '.green + 'https://nomics.com',
+                message : 'Enter Api Key '.green + 'https://coinmarketcap.com/',
                 validate : isRequired
             }
         ])
