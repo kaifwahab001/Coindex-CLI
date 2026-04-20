@@ -1,0 +1,6 @@
+first create bin in package.json where define the file path 
+Then use npm link : create global link for this file
+check the npm prefix -g : for where it linking the file
+
+
+3bf6518713a24a90b06c7c0ccfd3fb19
