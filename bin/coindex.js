@@ -2,8 +2,11 @@
 
 const {Command} = require('commander')
 const pkg = require('../package.json')
+const { registerGlobalErrorHandlers } = require('../utils/errorHandler')
 
 const program = new Command()
+
+registerGlobalErrorHandlers()
 
  
 program

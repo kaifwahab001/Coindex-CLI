@@ -1,5 +1,8 @@
 const { program } = require("commander");
 const check = require("../commands/check");
+const { registerGlobalErrorHandlers } = require("../utils/errorHandler");
+
+registerGlobalErrorHandlers()
 
 program
     .command('price')

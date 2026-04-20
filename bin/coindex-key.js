@@ -1,5 +1,8 @@
 const { program } = require('commander')
 const key = require('../commands/key')
+const { registerGlobalErrorHandlers } = require('../utils/errorHandler')
+
+registerGlobalErrorHandlers()
 
 program
     .command('set')
